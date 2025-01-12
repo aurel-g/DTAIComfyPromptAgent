@@ -2,8 +2,8 @@ import json
 
 import requests
 
-from custom_nodes.DTGlobalVariables import variables
-from custom_nodes.DTPromptAgent import config
+from custom_nodes.DTAIComfyVariables import variables
+from .config import *
 
 
 class DTPromptAgentString:
